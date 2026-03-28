@@ -46,7 +46,7 @@ export default function Weather(props) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/images/logo.png" className="logo" alt="SheCodes Logo" />
+          <img src="/logo-shecode.png" className="logo" alt="SheCodes Logo" />
         </a>
         <form onSubmit={handleSubmit}>
           <div className="row">
@@ -70,7 +70,7 @@ export default function Weather(props) {
         <WeatherInfo data={weatherData} />
         <WeatherForecast coordinates={weatherData.coordinates} city={weatherData.city}/>
         <footer>
-          This project was coded by{" "}
+          This project was coded by Obiageri Stöhr
           <a
             href="https://www.shecodes.io/"
             target="_blank"
@@ -80,7 +80,7 @@ export default function Weather(props) {
           </a>{" "}
           and is{" "}
           <a
-            href="https://github.com/shecodesio/weather"
+            href="https://github.com/Eucharia2124/weekfourhomereact"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -88,7 +88,7 @@ export default function Weather(props) {
           </a>{" "}
           and{" "}
           <a
-            href="https://shecodes-weather.netlify.app/"
+            href="https://obyreact-weatherapp.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
