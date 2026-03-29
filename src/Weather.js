@@ -3,6 +3,7 @@ import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
 import "./Weather.css";
+import logo from "./logo-shecode.png";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -46,7 +47,7 @@ export default function Weather(props) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/logo-shecode.png" className="logo" alt="SheCodes Logo" />
+          <img src={logo} className="logo" alt="SheCodes Logo" />
         </a>
         <form onSubmit={handleSubmit}>
           <div className="row">
